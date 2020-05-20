@@ -1,0 +1,216 @@
+#wrapper
+{
+ margin:0 auto;
+ padding:0px;
+ text-align:center;
+ width:100%;
+}
+#wrapper h1
+{
+ margin-top:50px;
+ font-size:45px;
+ color:#585858;
+}
+#wrapper h1 p
+{
+ font-size:18px;
+}
+#search_box input[type="text"]
+{
+ width:450px;
+ height:45px;
+ padding-left:10px;
+ font-size:18px; 
+ margin-bottom:15px;
+ color:#424242;
+ border:none;
+}
+#search_box input[type="submit"]
+{
+ width:100px;
+ height:45px;
+ background-color:#585858;
+ color:white;
+ border:none;
+}
+#result_div
+{
+ width:555px; 
+ margin-left:220px;
+}
+#result_div li
+{ 
+ margin-bottom:20px;
+ list-style-type:none;
+}
+#result_div li a
+{
+ text-decoration:none;
+ display:block;
+ text-align:left;
+}
+#result_div li a .title
+{
+ font-weight:bold;
+ font-size:18px;
+ color:#5882FA;
+}
+#result_div li a .desc
+{
+ color:#6E6E6E;
+}
+<style type="text/css">
+div{
+    margin: auto;
+    width: 60%;
+    border: 3px solid #73AD21;
+    padding: 10px;
+}
+@import url(https://fonts.googleapis.com/css?family=Roboto:300);
+
+.form-main{
+width: 80%;
+	padding: 10px 20px;
+        background: #f4f7f8;
+        margin: 10px auto;
+        padding: 20px;
+        background: #f4f7f8;
+        border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+        margin: auto;
+        border: 3px solid green;
+        padding: 10px;}
+ .form-style-5 fieldset{
+        border: none;}
+
+.form-main legend {
+        font-size: 1.4em;
+        margin-bottom: 10px;
+  text-align: center;
+
+}
+.form-mainpage legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+.form-style-5 label {
+        display: block;
+        margin-bottom: 8px;
+}
+
+.form-main input[type="text"],
+.form-main input[type="password"],
+.form-main textarea,
+.form-main select {
+  font-family: "Roboto", sans-serif;
+        background: rgba(255,255,255,.1);
+        border: none;
+        border-radius: 4px;
+        font-size: 15px;
+        margin: 0;
+        outline: 0;
+        padding: 10px;
+        box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        background-color: #e8eeef;
+        color:#8a97a0;
+        -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+        margin-bottom: 30px;
+}
+.form-main input[type="text"]:focus,
+.form-main input[type="url"]:focus,
+.form-main textarea:focus,
+.form-main select:focus{
+        background: #d2d9dd;
+}
+
+
+.form-main input[type="submit"]
+{
+    font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  padding: 15px;
+  color: #FFFFFF;
+        position: relative;
+        color: #FFF;
+        margin: 0 auto;
+        background: #1abc9c;
+        font-size: 18px;
+        text-align: center;
+        font-style: normal;
+
+        border: 1px solid #16a085;
+        border-width: 1px 1px 3px;
+        margin-bottom: 10px;
+}
+.form-main input[type="submit"]:hover
+{
+        background: #109177;
+}
+
+.si.si-checkbox  {
+    display:inline-block;
+    width: auto;
+
+input {
+  flex: 0 0 200px;
+  margin-left: 10px;
+}
+#myDIV {
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+  background-color: #1abc9c;
+  margin-top: 20px;
+}
+
+.login-page {
+  width: 360px;
+  padding: 8% 0 0;
+  margin: auto;
+}
+.form-mainpage {
+ position: relative;
+  z-index: 1;
+  background: #FFFFFF;
+  max-width: 360px;
+  margin: 0 auto 100px;
+  padding: 45px;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+.form-mainpage input {
+  font-family: "Roboto", sans-serif;
+  outline: 0;
+
+  background: #f2f2f2;
+  width: 100%;
+  border: 0;
+  margin: 0 0 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form-mainpage button {
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  outline: 0;
+  background: #1abc9c;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #FFFFFF;
+  font-size: 14px;
+  -webkit-transition: all 0.3 ease;
+  transition: all 0.3 ease;
+  cursor: pointer;
+}
+.form-mainpage button:hover,.form button:active,.form button:focus {
+  background: #109177;
+}
+
+
+
+</style>
